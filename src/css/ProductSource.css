@@ -1,0 +1,10 @@
+.product_source{
+    display: inline-block;
+}
+
+.ratingstar{
+    display: flex;
+    color: orange;
+    padding-left: 35px;
+}
+

@@ -1,0 +1,55 @@
+
+/* Full-width input fields */
+
+.usernameinput, .passwordinput {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 6px 0;
+  display:block;
+  box-sizing:content-box;
+}
+
+.loginbutton {
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    width: 40%;
+    margin-left: 110px;
+  }
+
+
+  .loginbutton:hover {
+    opacity: 0.8;
+  }
+  
+  
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  .container1 {
+    padding: 15px;
+  }
+  
+  .id01{
+      margin-left: 35%;
+      margin-right: 35%;
+  }
+  
+
+  .forgetpassword{
+    padding: 5px 165px;
+    color: black;
+    background-color: #f0c14b;
+    border: 1px solid orange;
+  }
+
+  h5{
+      color: #767676;
+      text-align: center;
+  }

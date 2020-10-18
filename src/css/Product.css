@@ -1,0 +1,6 @@
+.product-row{
+    display: inline-flex;
+}
+.products{
+    padding-left: 30px;
+}
