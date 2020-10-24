@@ -14,6 +14,7 @@ function Login() {
             .signInWithEmailAndPassword(email,password)
             .then(auth =>{
                 history.push('/')
+                alert("Sign In Succesfull");
             })
             .catch(error => alert(error.message))
     }
@@ -28,6 +29,7 @@ function Login() {
                 console.log(auth);
                 if(auth){
                     history.push('/')
+                    alert("Sign up Succesfull");
                 }
             })
             .catch(error => alert(error.message))
@@ -38,7 +40,7 @@ function Login() {
                     <form className="modal-content animate">
                                 <div className="container1">
                                     <label htmlFor="uname"><b>Username</b></label>
-                                    <input className="usernameinput" type="text" placeholder="Enter Username" value={email} name="uname" onChange={e=>setEmail(e.target.value)} /><br></br>
+                                    <input className="usernameinput" type="email" placeholder="Enter Username" value={email} name="uname" onChange={e=>setEmail(e.target.value)} /><br></br>
                                     <label htmlFor="psw"><b>Password</b></label>
                                     <input className="passwordinput" type="password" placeholder="Enter Password" value={password} name="psw" onChange={e=>setPassword(e.target.value)} /><br></br>
                                     <button className="loginbutton" type="submit" onClick={signIn}>Login</button><br></br><br></br>

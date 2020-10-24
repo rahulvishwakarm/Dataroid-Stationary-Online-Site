@@ -1,18 +1,22 @@
 import React from 'react';
 import '../../css/Header2.css';
+import {Link} from "react-router-dom";
 
 function Header2() {
     return (
         <div className="header2">
                 <div className="topnav">
-                    <div className="category">
-                        <a href="#home">Pencils <span className="fa fa-caret-down" /></a>
-                    </div>
-                    <div className="category">
-                        <a href="#home">Notebooks <span className="fa fa-caret-down" /></a>
-                    </div>
+                    <Link to="/notebooks">
+                        <div className="category">
+                                <a href="#home">Notebooks <span className="fa fa-caret-down" /></a>
+                            
+                        </div>
+                    </Link>
                     <div className="category">
                         <a href="#home">Textbooks <span className="fa fa-caret-down" /></a>
+                    </div>
+                    <div className="category">
+                        <a href="#home">All books <span className="fa fa-caret-down" /></a>
                     </div>
                     <div className="category">
                         <a href="#home">Calculators <span className="fa fa-caret-down" /></a>

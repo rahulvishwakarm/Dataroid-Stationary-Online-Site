@@ -19,6 +19,7 @@ function ProductSource({image,ISBN,title,price,rating}) {
                 rating:rating,
             }
         });
+        alert(title+" " +"Added to Cart");
     } ;
     return (
         <div className="product_source">
@@ -28,24 +29,26 @@ function ProductSource({image,ISBN,title,price,rating}) {
                                 <tr>
                                     <th>
                                         <div style={{textAlign: 'center'}} className="todays-deal-product-image">
-                                            <img src={image} alt="p1" height="170px" weight="241px" />
+                                            <img src={image} alt="p1" height="160px" weight="230px" />
                                         </div>
                                         <div className="todays-deal-product-desc">
                                             <div className="ratingstar">
-                                                <li style={{fontSize: 'small', listStyleType: 'none', textAlign: 'center'}}>{Array(rating).fill().map((_,i)=>(<i className="fa fa-star"></i>))}</li>
+                                                <li style={{textAlign: 'center'}} >{Array(rating).fill().map((_,i)=>(<i className="fa fa-star"></i>))}</li>
                                             </div>
-                                            <li style={{fontSize: 'small', listStyleType: 'none', textAlign: 'center'}}>{title}</li>           
-                                            <li style={{fontSize: 'small', listStyleType: 'none', textAlign: 'center'}}>{ISBN}</li>
-                                            <li style={{fontSize: 'small', listStyleType: 'none', textAlign: 'center'}}>₹{price}</li>
+                                            <li>ISBN:{ISBN}</li>
+                                            <li>{title}</li>
+                                            <div className="isbn_price">
+                                                <li style={{textAlign: 'center'}}>₹{price}</li>
+                                            </div>
                                             <div style={{textAlign: 'center'}}>
-                                            <button onClick={addToBasket} style={{backgroundColor: 'red', border: 'none'}} type="submit"><li style={{fontSize: 'small', listStyleType: 'none', textAlign: 'center', color: 'white'}}>Add to Cart</li></button>
+                                                <button onClick={addToBasket} style={{backgroundColor: 'red', border: 'none'}} type="submit"><li style={{fontSize: 'small', listStyleType: 'none', textAlign: 'center', color: 'white'}}>Add to Cart</li></button>
                                             </div>
                                         </div>
                                     </th> 
                                 </tr>
                         </tbody>
                     </table>
-                 </div>
+                </div>
         </div>
     )
 }

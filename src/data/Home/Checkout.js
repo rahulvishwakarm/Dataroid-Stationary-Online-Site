@@ -10,7 +10,7 @@ function Checkout() {
         <div className="checkoutpage">
 
             <div className="checkout__left">
-                <h4 className="checkout_user_view">Hello {user?.email}</h4>
+                <h4 className="checkout_user_view">Hello {!user ? 'Guest':user.email}</h4>
                 <h3 className="checkout_title">Shopping Cart</h3>
 
                 {basket.map(item => (
@@ -22,7 +22,6 @@ function Checkout() {
                         rating={item.rating}
                     />
                 ))}
-
             </div>
 
             <div className="checkout__right">

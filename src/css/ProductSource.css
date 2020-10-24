@@ -1,10 +1,15 @@
-.product_source{
-    display: inline-block;
-}
 
 .ratingstar{
     display: flex;
     color: orange;
-    padding-left: 35px;
+}
+
+.todays-deal-product-desc li{
+    list-style-type: none;
+    font-size: 10px;
+}
+
+.isbn_price li{
+    font-size: 14px;
 }
 
