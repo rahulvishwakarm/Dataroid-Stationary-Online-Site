@@ -16,6 +16,7 @@ import { Elements } from '@stripe/react-stripe-js';
 import Orders from './data/Home/Orders';
 import Trending from './data/Home/Trending';
 import Notebook from './data/Home/Notebook';
+import Textbook from './data/Home/Textbook';
 
 const promise = loadStripe('pk_test_51HeESrEadnBlyJHvD98S5JtfX0b2TIzBxPAGG8U1unQjngQ8DQDfBpVZ4vHhEgPqGgTbDbLMv81QGtnFu5EO02g000SVJVkyx7');
 
@@ -63,6 +64,12 @@ function App() {
                 <Header2/>
                 <br></br>
                   <Notebook/>
+              </Route>
+              <Route path="/textbooks">
+                <br></br>
+                <Header2/>
+                <br></br>
+                  <Textbook/>
               </Route>
               <Route path="/checkout">
                   <br></br>

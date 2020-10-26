@@ -9,12 +9,13 @@ function Header2() {
                     <Link to="/notebooks">
                         <div className="category">
                                 <a href="#home">Notebooks <span className="fa fa-caret-down" /></a>
-                            
                         </div>
                     </Link>
-                    <div className="category">
-                        <a href="#home">Textbooks <span className="fa fa-caret-down" /></a>
-                    </div>
+                    <Link to="/textbooks">
+                        <div className="category">
+                            <a href="#home">Textbooks <span className="fa fa-caret-down" /></a>
+                        </div>
+                    </Link>
                     <div className="category">
                         <a href="#home">All books <span className="fa fa-caret-down" /></a>
                     </div>

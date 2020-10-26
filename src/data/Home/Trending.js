@@ -24,7 +24,7 @@ function Trending() {
                     <ProductSource
                     image={trend1}
                     ISBN="9789385824333"
-                    title="You Only Live Once: Author Signed Limited Edition (Paperback)"
+                    title="You Only Live Once (Paperback)"
                     price={150}
                     rating={5}
                     />

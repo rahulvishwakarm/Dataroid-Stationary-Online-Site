@@ -1,16 +1,15 @@
 import React from 'react';
 import '../../css/Notebook.css';
 import ProductSource from '../Home/ProductSource';
-import nb1 from '../../img/Notebooks/notebook1.jpg';
-import nb2 from '../../img/Notebooks/notebook2.jpg';
-import nb3 from '../../img/Notebooks/notebook3.jpg';
-import nb4 from '../../img/Notebooks/notebook4.jpg';
-import nb5 from '../../img/Notebooks/notebook5.jpg';
-import nb21 from '../../img/Notebooks/2notebook1.jpg';
-import nb22 from '../../img/Notebooks/2notebook2.jpg';
-import nb23 from '../../img/Notebooks/2notebook3.jpg';
-import nb24 from '../../img/Notebooks/2notebook4.jpg';
-import nb25 from '../../img/Notebooks/2notebook5.jpg';
+import nb1 from '../../img/Notebooks/notebook1.png';
+import nb2 from '../../img/Notebooks/notebook2.png';
+import nb3 from '../../img/Notebooks/notebook3.png';
+import nb4 from '../../img/Notebooks/notebook4.png';
+import nb5 from '../../img/Notebooks/notebook5.png';
+import nb22 from '../../img/Notebooks/2notebook2.png';
+import nb23 from '../../img/Notebooks/2notebook3.png';
+import nb24 from '../../img/Notebooks/2notebook4.png';
+import nb25 from '../../img/Notebooks/2notebook5.png';
 import TodaysBackgroungImage from '../../img/TodaysDealBackground.png';
 
 function Notebook({ order }) {
@@ -82,13 +81,11 @@ function Notebook({ order }) {
             </div>
             <hr></hr>
             <div>
-                
-                
-
+            
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={nb21}
+                        image={nb22}
                         ISBN="8176561061"
                         title="LET US C++ PB (Paperback)"
                         price={431}
