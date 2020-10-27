@@ -17,6 +17,13 @@ import Orders from './data/Home/Orders';
 import Trending from './data/Home/Trending';
 import Notebook from './data/Home/Notebook';
 import Textbook from './data/Home/Textbook';
+import CraftMaterial from './data/Home/CraftMaterial';
+import Bag from './data/Home/Bag';
+import PenPencil from './data/Home/PenPencil';
+import File from './data/Home/File';
+import BottleTeffin from './data/Home/BottleTeffin';
+import StudyBook from './data/Home/StudyBook';
+import CompetitiveBook from './data/Home/CompetitiveBook';
 
 const promise = loadStripe('pk_test_51HeESrEadnBlyJHvD98S5JtfX0b2TIzBxPAGG8U1unQjngQ8DQDfBpVZ4vHhEgPqGgTbDbLMv81QGtnFu5EO02g000SVJVkyx7');
 
@@ -50,37 +57,93 @@ function App() {
         <div className="App">
         <Header1/>
           <Switch>
+
               <Route path="/orders">
                 <Orders/>
               </Route>
+
               <Route path="/login">
                 <br></br>
                 <Header2/>
                 <br></br>
                   <Login/>
               </Route>
+
               <Route path="/notebooks">
                 <br></br>
                 <Header2/>
                 <br></br>
                   <Notebook/>
               </Route>
+
               <Route path="/textbooks">
                 <br></br>
                 <Header2/>
                 <br></br>
                   <Textbook/>
               </Route>
+
+              <Route path="/craftmaterial">
+                <br></br>
+                <Header2/>
+                <br></br>
+                  <CraftMaterial/>
+              </Route>
+
+              <Route path="/bags">
+                <br></br>
+                <Header2/>
+                <br></br>
+                  <Bag/>
+              </Route>
+
+              <Route path="/penpencils">
+                <br></br>
+                <Header2/>
+                <br></br>
+                  <PenPencil/>
+              </Route>
+
+              <Route path="/files">
+                <br></br>
+                <Header2/>
+                <br></br>
+                  <File/>
+              </Route>
+
+              <Route path="/bottleteffins">
+                <br></br>
+                <Header2/>
+                <br></br>
+                  <BottleTeffin/>
+              </Route>
+
+              <Route path="/studybooks">
+                <br></br>
+                <Header2/>
+                <br></br>
+                  <StudyBook/>
+              </Route>
+
+              <Route path="/competitivebooks">
+                <br></br>
+                <Header2/>
+                <br></br>
+                  <CompetitiveBook/>
+              </Route>
+
               <Route path="/checkout">
                   <br></br>
                   <Header2/>
                   <Checkout/>
               </Route>
+
               <Route path="/payment">
                   <Elements stripe={promise}>
                     <Payment/>
                   </Elements>
               </Route>
+
               <Route path="/">
                   <br></br>
                   <Header2/>
@@ -91,6 +154,7 @@ function App() {
                   <hr></hr>
                   <Trending/>
               </Route>
+              
           </Switch>
         <Footer/>
         </div>

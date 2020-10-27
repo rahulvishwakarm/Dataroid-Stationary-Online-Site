@@ -16,27 +16,41 @@ function Header2() {
                             <a href="#home">Textbooks <span className="fa fa-caret-down" /></a>
                         </div>
                     </Link>
-                    <div className="category">
-                        <a href="#home">All books <span className="fa fa-caret-down" /></a>
-                    </div>
-                    <div className="category">
-                        <a href="#home">Calculators <span className="fa fa-caret-down" /></a>
-                    </div>
-                    <div className="category">
-                        <a href="#home">Pens <span className="fa fa-caret-down" /></a>
-                    </div>
-                    <div className="category">
-                        <a href="#home">Files <span className="fa fa-caret-down" /></a>
-                    </div>
-                    <div className="category">
-                        <a href="#home">Bottel &amp; Tiffins <span className="fa fa-caret-down" /></a>
-                    </div>
-                    <div className="category">
-                        <a href="#home">Study Books <span className="fa fa-caret-down" /></a>
-                    </div>
-                    <div className="category">
-                        <a href="#home">Accesories <span className="fa fa-caret-down" /></a>
-                    </div>
+                    <Link to="/craftmaterial">
+                        <div className="category">
+                            <a href="#home">Craft Material <span className="fa fa-caret-down" /></a>
+                        </div>
+                    </Link>
+                    <Link to="/bags">
+                        <div className="category">
+                            <a href="#home">Bags <span className="fa fa-caret-down" /></a>
+                        </div>
+                    </Link>
+                    <Link to="/penpencils">
+                        <div className="category">
+                            <a href="#home">Pens/Pencils <span className="fa fa-caret-down" /></a>
+                        </div>
+                    </Link>
+                    <Link to="/files">
+                        <div className="category">
+                            <a href="#home">Files <span className="fa fa-caret-down" /></a>
+                        </div>
+                    </Link>
+                    <Link to="/bottleteffins">
+                        <div className="category">
+                            <a href="#home">Bottel &amp; Tiffins <span className="fa fa-caret-down" /></a>
+                        </div>
+                    </Link>        
+                    <Link to="/studybooks">
+                        <div className="category">
+                            <a href="#home">Study Books <span className="fa fa-caret-down" /></a>
+                        </div>
+                    </Link>
+                    <Link to="/competitivebooks">
+                        <div className="category">
+                            <a href="#home">Competitive Books <span className="fa fa-caret-down" /></a>
+                        </div>
+                    </Link>
                 </div>
         </div>
     )
