@@ -1,14 +1,10 @@
 .categorybar{
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .header1{
     display:flex;
     justify-content: space-evenly;
-}
-
-.categorybar{
-    padding-top: 20px;
 }
 
 .scrollable-dropdown{

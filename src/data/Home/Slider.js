@@ -8,6 +8,7 @@ import stat2 from '../../img/stat2.jpg';
 import stat3 from '../../img/stat3.jpg';
 import stat4 from '../../img/stat4.jpg';
 import stat5 from '../../img/stat5.jpg';
+import { Link } from 'react-router-dom';
 
 const slideImages = [
   stat1,
@@ -21,26 +22,42 @@ const Slider = () => {
     return (
       <div>
         <Slide easing="ease">
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+
+          <Link to="/slider1">
+              <div className="each-slide">
+                  <div style={{'backgroundImage': `url(${slideImages[0]})`}}>
+                  </div>
+              </div>
+          </Link>
+            
+          <Link to="/slider2">
+            <div className="each-slide">
+              <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
+              </div>
             </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[1]})`}}>
+          </Link>
+          
+          <Link to="/slider3">
+            <div className="each-slide">
+              <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
+              </div>
             </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[2]})`}}>
+          </Link>  
+
+          <Link to="/slider4">
+            <div className="each-slide">
+              <div style={{'backgroundImage': `url(${slideImages[3]})`}}>
+              </div>
             </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[3]})`}}>
+          </Link>
+          
+          <Link to="/slider5">
+            <div className="each-slide">
+              <div style={{'backgroundImage': `url(${slideImages[4]})`}}>
+              </div>
             </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(${slideImages[4]})`}}>
-            </div>
-          </div>
+          </Link>
+          
         </Slide>
       </div>
     )

@@ -72,6 +72,7 @@ function Payment() {
             })
 
             history.replace('/orders')
+            alert("Order Placed Succesfully")
         })
     }
 

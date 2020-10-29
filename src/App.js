@@ -24,6 +24,11 @@ import File from './data/Home/File';
 import BottleTeffin from './data/Home/BottleTeffin';
 import StudyBook from './data/Home/StudyBook';
 import CompetitiveBook from './data/Home/CompetitiveBook';
+import Slide1 from './data/Slide/Slide1';
+import Slide2 from './data/Slide/Slide2';
+import Slide3 from './data/Slide/Slide3';
+import Slide4 from './data/Slide/Slide4';
+import Slide5 from './data/Slide/Slide5';
 
 const promise = loadStripe('pk_test_51HeESrEadnBlyJHvD98S5JtfX0b2TIzBxPAGG8U1unQjngQ8DQDfBpVZ4vHhEgPqGgTbDbLMv81QGtnFu5EO02g000SVJVkyx7');
 
@@ -59,12 +64,12 @@ function App() {
           <Switch>
 
               <Route path="/orders">
+                <hr></hr>
                 <Orders/>
               </Route>
 
               <Route path="/login">
-                <br></br>
-                <Header2/>
+                <hr></hr>
                 <br></br>
                   <Login/>
               </Route>
@@ -130,6 +135,41 @@ function App() {
                 <Header2/>
                 <br></br>
                   <CompetitiveBook/>
+              </Route>
+
+              <Route path="/slider1">
+                <br></br>
+                <Header2/>
+                <br></br>
+                  <Slide1/>
+              </Route>
+
+              <Route path="/slider2">
+                <br></br>
+                <Header2/>
+                <br></br>
+                  <Slide2/>
+              </Route>
+
+              <Route path="/slider3">
+                <br></br>
+                <Header2/>
+                <br></br>
+                  <Slide3/>
+              </Route>
+
+              <Route path="/slider4">
+                <br></br>
+                <Header2/>
+                <br></br>
+                  <Slide4/>
+              </Route>
+
+              <Route path="/slider5">
+                <br></br>
+                <Header2/>
+                <br></br>
+                  <Slide5/>
               </Route>
 
               <Route path="/checkout">

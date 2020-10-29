@@ -2,14 +2,14 @@
 import firebase from 'firebase';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBTIYN9tZ4Jp37ppnk_dUd7AQSkYGvZEUQ",
-  authDomain: "stationary-online-store.firebaseapp.com",
-  databaseURL: "https://stationary-online-store.firebaseio.com",
-  projectId: "stationary-online-store",
-  storageBucket: "stationary-online-store.appspot.com",
-  messagingSenderId: "48980674359",
-  appId: "1:48980674359:web:9afb1c756eb25189343cb2",
-  measurementId: "G-P4SHDQP9S4"
+  apiKey: "AIzaSyAQ8oaCByVXgJfIXhnv_lMAWKBH8nrCJu8",
+  authDomain: "stationary-9b162.firebaseapp.com",
+  databaseURL: "https://stationary-9b162.firebaseio.com",
+  projectId: "stationary-9b162",
+  storageBucket: "stationary-9b162.appspot.com",
+  messagingSenderId: "139652295861",
+  appId: "1:139652295861:web:decdaf767ae878a39662fc",
+  measurementId: "G-JJ1B1FRPKR"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);

@@ -19,7 +19,7 @@
 .checkoutProduct_image{
     object-fit: contain;
     width: 180px;
-    height: 180px;
+    height: 120px;
 }
 
 .checkoutProduct_rating{
@@ -28,6 +28,6 @@
 }
 
 .checkoutProduct_title{
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
 }
