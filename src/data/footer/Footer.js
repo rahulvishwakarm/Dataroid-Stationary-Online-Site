@@ -1,5 +1,7 @@
 import React from 'react';
 import '../../css/footer.css';
+import ContactUs from '../Contact Us/ContactUs';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     return (
@@ -8,13 +10,19 @@ function Footer() {
                         <div className="footer-left">
                         <h3>Data<span>roid</span></h3>
                         <p className="footer-links">
-                            <a href="https://www.google.com/">Home</a>
+                            <Link to="/">
+                                Home                            
+                            </Link>
                             |
                             <a href="https://www.google.com/">Blog</a>
                             |
-                            <a href="https://www.google.com/">About</a>
+                            <Link to="/aboutus">
+                                About Us    
+                            </Link>
                             |
-                            <a href="https://www.google.com/">Contact Us</a>
+                            <Link to="/contactus">
+                                ContactUs
+                            </Link>
                         </p>
                         <p className="footer-company-name">All Rights Reserved</p>
                         <p className="footer-company-name">Developed by Rahul Vishwakarma</p>
@@ -41,18 +49,18 @@ function Footer() {
                             <span style={{color
                             : 'orange', fontSize: 'small'}}>We Sell Stationary Products In All Category</span></p>
                         <div className="footer-icons">
-                            <a href="https://www.google.com/" style={{backgroundColor: 'blue', color: 'white'}}><i className="fa fa-facebook" /></a>
-                            <a href="https://www.google.com/" style={{backgroundColor: '#03fcf0', color: 'white'}}><i className="fa fa-twitter" /></a>
-                            <a href="https://www.google.com/" style={{backgroundColor: 'white', color: '#F05283'}}><i className="fa fa-instagram" /></a>
-                            <a href="https://www.google.com/" style={{backgroundColor: 'white', color: 'blue'}}><i className="fa fa-linkedin" /></a>
-                            <a href="https://www.google.com/" style={{backgroundColor: 'red', color: 'white'}}><i className="fa fa-youtube" /></a>
+                            <a href="https://www.facebook.com/" style={{backgroundColor: 'blue', color: 'white'}}><i className="fa fa-facebook" /></a>
+                            <a href="https://twitter.com/" style={{backgroundColor: '#03fcf0', color: 'white'}}><i className="fa fa-twitter" /></a>
+                            <a href="https://www.instagram.com/" style={{backgroundColor: 'white', color: '#F05283'}}><i className="fa fa-instagram" /></a>
+                            <a href="https://www.linkedin.com/" style={{backgroundColor: 'white', color: 'blue'}}><i className="fa fa-linkedin" /></a>
+                            <a href="https://youtube.com/" style={{backgroundColor: 'red', color: 'white'}}><i className="fa fa-youtube" /></a>
                         </div>
                         <div className="footer-icons">
                             <h4 style={{color: 'white', fontSize: 'small'}}>We Accept</h4><br />
-                            <a href="https://www.google.com/" style={{color: '#3F71EA'}}><i className="fa fa-paypal" /></a>
-                            <a href="https://www.google.com/" style={{color: 'white', backgroundColor: 'red'}}><i className="fa fa-cc-visa" /></a>
-                            <a href="https://www.google.com/" style={{backgroundColor: 'green'}}><i className="fa fa-credit-card" /></a>
-                            <a href="https://www.google.com/" style={{backgroundColor: 'orange'}}><i className="fa fa-money" /></a>
+                            <a href="https://www.americanexpress.com/in/" style={{color: 'blue'}} title="American Express card"><i class="fa fa-cc-amex"></i></a>
+                            <a href="https://www.visa.co.in/" style={{color: 'white', backgroundColor: 'red'}} title="Visa Debit Card"><i className="fa fa-cc-visa" /></a>
+                            <a href="https://www.visa.co.in/pay-with-visa/find-a-card/credit-cards.html" style={{backgroundColor: 'green'}} title="Credit Card"><i className="fa fa-credit-card" /></a>
+                            <a href="https://en.wikipedia.org/wiki/Cash_on_delivery" style={{backgroundColor: 'orange'}} title="Cash On Delivery"><i className="fa fa-money" /></a>
                         </div>
                         </div>
                     </footer>

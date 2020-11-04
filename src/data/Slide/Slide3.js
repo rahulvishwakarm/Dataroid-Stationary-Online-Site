@@ -7,7 +7,7 @@ function Slide3() {
     return (
         <div className="product">
             <div className="notebookheading">
-                <h1 style={{backgroundImage: `url(${TodaysBackgroungImage})`}} >Slider2</h1>
+                <h1 style={{backgroundImage: `url(${TodaysBackgroungImage})`}} >Slider3</h1>
             </div>
             <div className="slide1content">
                 <div className="product-row">

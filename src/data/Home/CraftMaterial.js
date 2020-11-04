@@ -1,12 +1,21 @@
 import React from 'react';
 import '../../css/CraftMaterial.css';
 import ProductSource from '../Home/ProductSource';
-import tb1 from '../../img/Textbook/tb1.jpg';
-import tb2 from '../../img/Textbook/tb2.jpg';
-import tb3 from '../../img/Textbook/tb3.jpg';
-import tb4 from '../../img/Textbook/tb4.jpg';
-import tb5 from '../../img/Textbook/tb5.jpg';
-import tb6 from '../../img/Textbook/tb6.jpg';
+import craft1 from '../../img/Craft Material/craft1.jpg';
+import craft2 from '../../img/Craft Material/craft2.jpg';
+import craft3 from '../../img/Craft Material/craft3.jpg';
+import craft4 from '../../img/Craft Material/craft4.jpg';
+import craft5 from '../../img/Craft Material/craft5.jpg';
+import craft6 from '../../img/Craft Material/craft6.jpg';
+import craft7 from '../../img/Craft Material/craft7.jpg';
+import craft8 from '../../img/Craft Material/craft8.jpg';
+import craft9 from '../../img/Craft Material/craft9.jpg';
+import craft10 from '../../img/Craft Material/craft10.jpg';
+import craft11 from '../../img/Craft Material/craft11.jpg';
+import craft12 from '../../img/Craft Material/craft12.jpg';
+import craft13 from '../../img/Craft Material/craft13.jpg';
+import craft14 from '../../img/Craft Material/craft14.jpg';
+import craft15 from '../../img/Craft Material/craft15.jpg';
 import TodaysBackgroungImage from '../../img/TodaysDealBackground.png';
 
 function CraftMaterial() {
@@ -19,7 +28,7 @@ function CraftMaterial() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb1}
+                        image={craft1}
                         ISBN="8176561061"
                         title="Text Book1 as the Start"
                         price={431}
@@ -31,7 +40,7 @@ function CraftMaterial() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb2}
+                        image={craft2}
                         ISBN="8176561061"
                         title="LET US C++ PB (Paperback)"
                         price={431}
@@ -43,7 +52,7 @@ function CraftMaterial() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb3}
+                        image={craft3}
                         ISBN="8176561061"
                         title="LET US C++ PB (Paperback)"
                         price={431}
@@ -55,7 +64,7 @@ function CraftMaterial() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb4}
+                        image={craft4}
                         ISBN="8176561061"
                         title="LET US C++ PB (Paperback)"
                         price={431}
@@ -67,7 +76,7 @@ function CraftMaterial() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb5}
+                        image={craft5}
                         ISBN="8176561061"
                         title="LET US C++ PB (Paperback)"
                         price={431}
@@ -79,7 +88,7 @@ function CraftMaterial() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb6}
+                        image={craft6}
                         ISBN="8176561061"
                         title="Text Book1 as the Start"
                         price={431}
@@ -88,6 +97,160 @@ function CraftMaterial() {
                     </div>         
                 </div>
 
+            </div>
+
+            <hr></hr>
+
+            <div className="product_arrange">
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={craft7}
+                        ISBN="8176561061"
+                        title="Text Book1 as the Start"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={craft8}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={craft9}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={craft10}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={craft11}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={craft12}
+                        ISBN="8176561061"
+                        title="Text Book1 as the Start"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+                
+            </div>
+
+            <hr></hr>
+
+            <div className="product_arrange">
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={craft13}
+                        ISBN="8176561061"
+                        title="Text Book1 as the Start"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={craft14}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={craft15}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={craft4}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={craft5}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={craft6}
+                        ISBN="8176561061"
+                        title="Text Book1 as the Start"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+                
             </div>
             
         </div>

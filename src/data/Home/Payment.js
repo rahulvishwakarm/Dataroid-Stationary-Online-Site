@@ -8,6 +8,7 @@ import CurrencyFormat from 'react-currency-format';
 import { getBasketTotal } from './Reducer';
 import axios from "./axios";
 import { db } from '../../firebase';
+import QR  from '../../img/QR_Code.jpg';
 
 function Payment() {
     const [{basket,user},dispatch] = useStateValue();
@@ -202,39 +203,42 @@ function Payment() {
                     <div className="payment_title">
                         <h3>Payment Method</h3>
                     </div>
-
-                    <div className="payment_details">
-                            {/**React Stripe */}
-                            <form onSubmit={handleSubmit}>
-                                <CardElement onChange={handleChange}/>
-
-                                <div className="payment_pricecontainer">
-                                        <CurrencyFormat
-                                            renderText = {(value) => (
-
-                                                <h3>Order Total: {value}</h3>
-
-                                            )}
-                                            decimalScale={2}
-                                            value={getBasketTotal(basket)}
-                                            displayType={"text"}
-                                            thousandSeparator={true}
-                                            prefix={" ₹ "}
-                                        />
-                                        <button disabled={processing || disabled || succeeded}>
-                                            <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
-                                        </button>
+                        <div className="payment_details">
+                                {/**React Stripe */}
+                                <div className="dreditDebitText">
+                                    Credit / Debit Card
                                 </div>
-
-                                {/*Error */}
-                                {error && <div>{error}</div>}
-
-                            </form>
-
-                    </div>
-                    <div className="with_paytm">
-                            
-                    </div>                  
+                                <form onSubmit={handleSubmit}>
+                                    <div className="cardInput">
+                                            <CardElement onChange={handleChange}/>
+                                    </div>
+                                    <div className="payment_pricecontainer">
+                                            <CurrencyFormat
+                                                renderText = {(value) => (
+                                                    <h3>Order Total: {value}</h3>
+                                                )}
+                                                decimalScale={2}
+                                                value={getBasketTotal(basket)}
+                                                displayType={"text"}
+                                                thousandSeparator={true}
+                                                prefix={" ₹ "}
+                                            />
+                                            <button disabled={processing || disabled || succeeded}>
+                                                <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
+                                            </button>
+                                    </div>
+                                    {/*Error */}
+                                    {error && <div>{error}</div>}
+                                </form>
+                        </div> 
+                        <div className="paytm">
+                            <div className="paytm_text">
+                                (Scan and Pay with Paytm )
+                            </div><br></br>
+                            <div className="qrcode">
+                                <img src={QR} alt="QR_Code" height="120"/>
+                            </div>
+                        </div>      
                 </div>
             </div>
         </div>

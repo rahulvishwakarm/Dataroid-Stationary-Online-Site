@@ -57,3 +57,22 @@ input[type=text], select, textarea {
     border-color:#a88734 #9c7e31 #846a29;
     
 }
+
+.payment_details{
+    border: 1px solid gray;
+    padding:30px;
+}
+.cardInput{
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.paytm{
+    border: 1px solid gray;
+    padding:20px;
+}
+.qrcode{
+    text-align: center;
+}
+
+

@@ -38,7 +38,7 @@ function ProductSource({image,ISBN,title,price,rating}) {
                                             <li>ISBN:{ISBN}</li>
                                             <li>{title}</li>
                                             <div className="isbn_price">
-                                                <li style={{textAlign: 'center'}}>₹{price}</li>
+                                                <li style={{textAlign: 'center',fontWeight:'bold'}}>₹{price}</li>
                                             </div>
                                             <div style={{textAlign: 'center'}}>
                                                 <button onClick={addToBasket} style={{backgroundColor: 'red', border: 'none'}} type="submit"><li style={{fontSize: 'small', listStyleType: 'none', textAlign: 'center', color: 'white'}}>Add to Cart</li></button>

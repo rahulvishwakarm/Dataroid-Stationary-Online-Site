@@ -1,12 +1,22 @@
 import React from 'react';
 import '../../css/PenPencil.css';
 import ProductSource from '../Home/ProductSource';
-import tb1 from '../../img/Textbook/tb1.jpg';
-import tb2 from '../../img/Textbook/tb2.jpg';
-import tb3 from '../../img/Textbook/tb3.jpg';
-import tb4 from '../../img/Textbook/tb4.jpg';
-import tb5 from '../../img/Textbook/tb5.jpg';
-import tb6 from '../../img/Textbook/tb6.jpg';
+import penpencil1 from '../../img/Pen Pencils/penpencil1.jpg';
+import penpencil2 from '../../img/Pen Pencils/penpencil2.jpg';
+import penpencil3 from '../../img/Pen Pencils/penpencil3.jpg';
+import penpencil4 from '../../img/Pen Pencils/penpencil4.jpg';
+import penpencil5 from '../../img/Pen Pencils/penpencil5.jpg';
+import penpencil6 from '../../img/Pen Pencils/penpencil6.jpg';
+import penpencil7 from '../../img/Pen Pencils/penpencil7.jpg';
+import penpencil8 from '../../img/Pen Pencils/penpencil8.jpg';
+import penpencil9 from '../../img/Pen Pencils/penpencil9.jpg';
+import penpencil10 from '../../img/Pen Pencils/penpencil10.jpg';
+import penpencil11 from '../../img/Pen Pencils/penpencil11.jpg';
+import penpencil12 from '../../img/Pen Pencils/penpencil12.jpg';
+import penpencil13 from '../../img/Pen Pencils/penpencil13.jpg';
+import penpencil14 from '../../img/Pen Pencils/penpencil14.jpg';
+import penpencil15 from '../../img/Pen Pencils/penpencil15.jpg';
+
 import TodaysBackgroungImage from '../../img/TodaysDealBackground.png';
 
 function PenPencil() {
@@ -19,7 +29,7 @@ function PenPencil() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb1}
+                        image={penpencil1}
                         ISBN="8176561061"
                         title="Text Book1 as the Start"
                         price={431}
@@ -31,7 +41,7 @@ function PenPencil() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb2}
+                        image={penpencil2}
                         ISBN="8176561061"
                         title="LET US C++ PB (Paperback)"
                         price={431}
@@ -43,7 +53,7 @@ function PenPencil() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb3}
+                        image={penpencil3}
                         ISBN="8176561061"
                         title="LET US C++ PB (Paperback)"
                         price={431}
@@ -55,7 +65,7 @@ function PenPencil() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb4}
+                        image={penpencil4}
                         ISBN="8176561061"
                         title="LET US C++ PB (Paperback)"
                         price={431}
@@ -67,7 +77,7 @@ function PenPencil() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb5}
+                        image={penpencil5}
                         ISBN="8176561061"
                         title="LET US C++ PB (Paperback)"
                         price={431}
@@ -79,7 +89,7 @@ function PenPencil() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb6}
+                        image={penpencil6}
                         ISBN="8176561061"
                         title="Text Book1 as the Start"
                         price={431}
@@ -87,7 +97,125 @@ function PenPencil() {
                         />
                     </div>         
                 </div>
-            </div>   
+            </div> 
+
+            <hr></hr>
+
+            <div className="product_arrange">
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={penpencil7}
+                        ISBN="8176561061"
+                        title="Text Book1 as the Start"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={penpencil8}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={penpencil9}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={penpencil10}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={penpencil11}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={penpencil12}
+                        ISBN="8176561061"
+                        title="Text Book1 as the Start"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+            </div>
+
+            <hr></hr>
+
+            <div className="">
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={penpencil13}
+                        ISBN="8176561061"
+                        title="Text Book1 as the Start"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={penpencil14}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={penpencil15}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div> 
+
+            </div>
+
         </div>
     )
 }

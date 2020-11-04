@@ -29,6 +29,8 @@ import Slide2 from './data/Slide/Slide2';
 import Slide3 from './data/Slide/Slide3';
 import Slide4 from './data/Slide/Slide4';
 import Slide5 from './data/Slide/Slide5';
+import ContactUs from './data/Contact Us/ContactUs';
+import AboutUs from './data/About Us/AboutUs';
 
 const promise = loadStripe('pk_test_51HeESrEadnBlyJHvD98S5JtfX0b2TIzBxPAGG8U1unQjngQ8DQDfBpVZ4vHhEgPqGgTbDbLMv81QGtnFu5EO02g000SVJVkyx7');
 
@@ -176,6 +178,17 @@ function App() {
                   <br></br>
                   <Header2/>
                   <Checkout/>
+              </Route>
+
+              <Route path="/contactus">
+                  <br></br>
+                  <ContactUs/>
+              </Route>
+
+              <Route path="/aboutus">
+                  <br></br>
+                  <Header2/>
+                  <AboutUs/>
               </Route>
 
               <Route path="/payment">

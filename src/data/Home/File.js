@@ -1,12 +1,21 @@
 import React from 'react';
 import '../../css/File.css';
 import ProductSource from '../Home/ProductSource';
-import tb1 from '../../img/Textbook/tb1.jpg';
-import tb2 from '../../img/Textbook/tb2.jpg';
-import tb3 from '../../img/Textbook/tb3.jpg';
-import tb4 from '../../img/Textbook/tb4.jpg';
-import tb5 from '../../img/Textbook/tb5.jpg';
-import tb6 from '../../img/Textbook/tb6.jpg';
+import file1 from '../../img/File/file1.jpg';
+import file2 from '../../img/File/file2.jpg';
+import file3 from '../../img/File/file3.jpg';
+import file4 from '../../img/File/file4.jpg';
+import file5 from '../../img/File/file5.jpg';
+import file6 from '../../img/File/file6.jpg';
+import file7 from '../../img/File/file7.jpg';
+import file8 from '../../img/File/file8.jpg';
+import file9 from '../../img/File/file9.jpg';
+import file10 from '../../img/File/file10.jpg';
+import file11 from '../../img/File/file11.jpg';
+import file12 from '../../img/File/file12.jpg';
+import file13 from '../../img/File/file13.jpg';
+import file14 from '../../img/File/file14.jpg';
+import file15 from '../../img/File/file15.jpg';
 import TodaysBackgroungImage from '../../img/TodaysDealBackground.png';
 
 
@@ -20,7 +29,7 @@ function File() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb1}
+                        image={file1}
                         ISBN="8176561061"
                         title="Text Book1 as the Start"
                         price={431}
@@ -32,7 +41,7 @@ function File() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb2}
+                        image={file2}
                         ISBN="8176561061"
                         title="LET US C++ PB (Paperback)"
                         price={431}
@@ -44,7 +53,7 @@ function File() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb3}
+                        image={file3}
                         ISBN="8176561061"
                         title="LET US C++ PB (Paperback)"
                         price={431}
@@ -56,7 +65,7 @@ function File() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb4}
+                        image={file4}
                         ISBN="8176561061"
                         title="LET US C++ PB (Paperback)"
                         price={431}
@@ -68,7 +77,7 @@ function File() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb5}
+                        image={file5}
                         ISBN="8176561061"
                         title="LET US C++ PB (Paperback)"
                         price={431}
@@ -80,7 +89,7 @@ function File() {
                 <div className="product-row">
                     <div className="products">
                         <ProductSource
-                        image={tb6}
+                        image={file6}
                         ISBN="8176561061"
                         title="Text Book1 as the Start"
                         price={431}
@@ -88,7 +97,71 @@ function File() {
                         />
                     </div>         
                 </div>
-            </div>   
+            </div>  
+            
+            <hr></hr>
+
+            <div className="product_arrange">
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={file7}
+                        ISBN="8176561061"
+                        title="Text Book1 as the Start"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={file8}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={file9}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={file10}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+
+                <div className="product-row">
+                    <div className="products">
+                        <ProductSource
+                        image={file11}
+                        ISBN="8176561061"
+                        title="LET US C++ PB (Paperback)"
+                        price={431}
+                        rating={5}
+                        />
+                    </div>         
+                </div>
+            </div>  
         </div>
     )
 }

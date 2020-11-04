@@ -25,7 +25,7 @@ function StudyBook() {
                         price={431}
                         rating={5}
                         />
-                    </div>         
+                    </div>       
                 </div>
 
                 <div className="product-row">

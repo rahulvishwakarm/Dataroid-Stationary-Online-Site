@@ -27,8 +27,9 @@ function Product() {
                     title="LET US C++ PB (Paperback)"
                     price={431}
                     rating={5}
-                    />
+                    /> 
                 </div>
+                
                 <div className="products">
                     <ProductSource
                         image={img2}
