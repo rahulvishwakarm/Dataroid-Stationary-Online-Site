@@ -11,11 +11,12 @@ import img6 from '../../img/Half Image/Halfed/9780007192144.jpg';
 import img7 from '../../img/Half Image/Halfed/9780007247394.jpg';
 
 function Product() {
+    
     return (
         <div className="product">
             <div>
                 <div style={{backgroundImage: `url(${TodaysBackgroungImage})`}} className="today-deal-label" >
-                    <b><span  >TODAYS <span style={{color: '#e59285'}}> DEAL</span></span></b>
+                    <b><small  >TODAYS <span style={{color: '#e59285'}}> DEAL</span></small></b>
                 </div><br />
             </div>
 

@@ -2,27 +2,15 @@
 /* Full-width input fields */
 
 .usernameinput, .passwordinput {
-  width: 90%;
-  padding: 12px 20px;
-  margin: 6px 0;
+  width: 95%;
+  padding: 8px 8px;
   display:block;
   box-sizing:content-box;
 }
 
 .loginbutton {
-    background-color: black;
-    color: white;
-    padding: 10px 15px;
     border: none;
-    width: 40%;
-    margin-left: 110px;
   }
-
-
-  .loginbutton:hover {
-    opacity: 0.8;
-  }
-  
   
   
   /* Center the image and position the close button */
@@ -41,15 +29,33 @@
       margin-right: 35%;
   }
   
+  .loginbutton{
+    color: black;
+  }
+
+  .register{
+    padding: 5px 97px;
+    color: black;
+  }
 
   .forgetpassword{
-    padding: 5px 165px;
     color: black;
-    background-color: #f0c14b;
-    border: 1px solid orange;
+    text-align: justify;
+  }
+
+  .register:hover,.forgetpassword:hover,.loginbutton:hover{
+    color: black;
   }
 
   h5{
       color: #767676;
       text-align: center;
+  }
+
+  .loginbutton{
+    float: left;
+  }
+
+  .forgetpassword{
+    float: right;
   }

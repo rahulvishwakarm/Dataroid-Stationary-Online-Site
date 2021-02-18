@@ -14,16 +14,16 @@
 
   .topnav a {
     float: left;
-    color:black;
+    color:gray;
     text-align: center;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 15px;
     font-family:verdana;
   }
   
   .topnav a:hover {
     text-decoration: none;
-    font-weight: bold;
+    color:black;
   }
 
   

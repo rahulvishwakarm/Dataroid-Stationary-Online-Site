@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "stationary-9b162"
+    "development": "dataroid-stationary",
+    "default": "dataroid-stationary"
   }
 }

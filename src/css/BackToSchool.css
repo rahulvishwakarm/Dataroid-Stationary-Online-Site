@@ -1,0 +1,12 @@
+.Back-To-School{
+    text-align: center;
+    font-size: 30px;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+
+.imagesBacktoSchool{
+    display: flex;
+    justify-content: space-evenly;
+}
+

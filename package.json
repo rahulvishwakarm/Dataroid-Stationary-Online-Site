@@ -18,9 +18,13 @@
     "react": "^16.14.0",
     "react-currency-format": "^1.0.0",
     "react-dom": "^16.14.0",
+    "react-native-material-textfield": "^0.16.1",
+    "react-native-paper": "^4.5.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "react-slideshow-image": "^3.3.0"
+    "react-search-field": "^1.1.0",
+    "react-slideshow-image": "^3.3.0",
+    "reactstrap": "^8.9.0"
   },
   "scripts": {
     "start": "react-scripts start",

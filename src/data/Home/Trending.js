@@ -10,15 +10,15 @@ import trend5 from '../../img/Trending/trending5.jpg';
 import trend6 from '../../img/Trending/trending6.jpg';
 import trend7 from '../../img/Trending/trending7.jpg';
 
+
 function Trending() {
     return (
         <div className="product">
             <div>
                 <div style={{backgroundImage: `url(${TodaysBackgroungImage})`}} className="today-deal-label" >
-                    <b><span  >TRENDING</span></b>
+                    <b><small  >TRENDING</small></b>
                 </div><br />
             </div>
-
             <div className="product-row">
                 <div className="products">
                     <ProductSource
@@ -82,7 +82,7 @@ function Trending() {
                         price={175}
                         rating={4}
                     />
-                </div>    
+                </div>
             </div>
         </div>
     )

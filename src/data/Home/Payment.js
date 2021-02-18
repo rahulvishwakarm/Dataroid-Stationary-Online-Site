@@ -10,6 +10,7 @@ import axios from "./axios";
 import { db } from '../../firebase';
 import QR  from '../../img/QR_Code.jpg';
 
+
 function Payment() {
     const [{basket,user},dispatch] = useStateValue();
     const history = useHistory();
@@ -119,20 +120,8 @@ function Payment() {
                                     <input type="text" placeholder="6-digit Pin Code"  name="pincode"  />
                             </td>
                             <td>
-                                    <label htmlFor="flat_no">Flat, House no., Building, Company, Apartment</label>
-                                    <input type="text"   name="flat_no"  />
-                            </td>
-                            <td>
-                                    <label htmlFor="area_col">Area, Colony, Street, Sector, Village</label>
-                                    <input type="text"   name="area_col"  />
-                            </td>
-                            <td>
-                                    <label htmlFor="landmark">Landmark</label>
-                                    <input type="text"   name="landmark"  />
-                            </td>
-                            <td>
-                                    <label htmlFor="city">City</label>
-                                    <input type="text" placeholder="City"  name="city"  />
+                                    <label htmlFor="flat_no">Address</label>
+                                    <input type="text"   name="address"  />
                             </td>
                             <td>    
                                     <label>State</label>

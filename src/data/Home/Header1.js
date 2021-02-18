@@ -34,7 +34,7 @@ function Header1() {
                     <div className="header_option">
                                 <Link to={!user && '/login'}> 
                                     <div onClick={handleAuthentication} className="signin">
-                                        <strong><h5 className="signin_user_display">{!user ? 'Guest':user.email}</h5></strong>
+                                        <strong><h5 className="signin_user_display"><b>{!user ? 'Guest':user.email}</b></h5></strong>
                                         <span className="signin_text">{user ?
                                         'Sign Out':'Sign In'}
                                         </span>
@@ -46,16 +46,14 @@ function Header1() {
                                     </div>
                                 </Link>
                         </div>
-
                         <Link to="/checkout">  
                             <div className="header_basket">
-                                <span className="cart_text"><ShoppingCartIcon style={{ fontSize: 25,color:"blue" }}/></span>
-                                <b><span className="cart_number" style={{ color:"red" }}> {basket?.length} </span></b>
+                                <span className="cart_text"><ShoppingCartIcon style={{ fontSize: 25,color:"black" }}/></span>
+                                <b><span className="cart_number" style={{ color:"black" }}> {basket?.length} </span></b>
                             </div>
                         </Link>
                 </div>
                     
-
         </div>
         
     )

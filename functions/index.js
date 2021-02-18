@@ -5,7 +5,6 @@ const stripe = require("stripe")('sk_test_51HeESrEadnBlyJHvXseUYxxdexcjUWxj0pLCD
 
 //API
 
-
 //App Config
 const app = express();
 
