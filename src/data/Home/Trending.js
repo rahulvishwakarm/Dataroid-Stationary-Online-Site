@@ -16,7 +16,7 @@ function Trending() {
         <div className="product">
             <div>
                 <div style={{backgroundImage: `url(${TodaysBackgroungImage})`}} className="today-deal-label" >
-                    <b><small  >TRENDING</small></b>
+                    <b><small>TRENDING</small></b>
                 </div><br />
             </div>
             <div className="product-row">

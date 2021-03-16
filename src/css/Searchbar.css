@@ -104,6 +104,10 @@
     color:rgb(3, 165, 3);
 }
 
+.input-group{
+    display: inline-flex;
+}
+
 
 
 

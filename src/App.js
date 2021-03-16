@@ -32,6 +32,7 @@ import Slide5 from './data/Slide/Slide5';
 import ContactUs from './data/Contact Us/ContactUs';
 import AboutUs from './data/About Us/AboutUs';
 import BackToSchool from './data/Home/BackToSchool';
+import SearchMatch from './data/Home/SearchMatch';
 
 const promise = loadStripe('pk_test_51HeESrEadnBlyJHvD98S5JtfX0b2TIzBxPAGG8U1unQjngQ8DQDfBpVZ4vHhEgPqGgTbDbLMv81QGtnFu5EO02g000SVJVkyx7');
 
@@ -65,6 +66,11 @@ function App() {
         <div className="App">
         <Header1/>
           <Switch>
+
+              <Route path="/searches">
+                <br></br>
+                <SearchMatch/>
+              </Route>
 
               <Route path="/orders">
                 <hr></hr>

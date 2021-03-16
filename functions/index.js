@@ -37,7 +37,7 @@ app.post('/payment/create',async (request,response) =>{
 exports.api = functions.https.onRequest(app);
 
 //Example Endpoint
-//http://localhost:5001/stationary-9b162/us-central1/api
+//http://localhost:5001/dataroid-stationary/us-central1/api
 
 
 
