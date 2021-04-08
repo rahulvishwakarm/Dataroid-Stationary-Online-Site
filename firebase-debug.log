@@ -1,13 +1,13 @@
-[debug] [2021-03-11T07:35:06.863Z] ----------------------------------------------------------------------
-[debug] [2021-03-11T07:35:06.865Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RAHUL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2021-03-11T07:35:06.865Z] CLI Version:   9.6.0
-[debug] [2021-03-11T07:35:06.865Z] Platform:      win32
-[debug] [2021-03-11T07:35:06.865Z] Node Version:  v14.7.0
-[debug] [2021-03-11T07:35:06.866Z] Time:          Thu Mar 11 2021 13:05:06 GMT+0530 (India Standard Time)
-[debug] [2021-03-11T07:35:06.866Z] ----------------------------------------------------------------------
-[debug] [2021-03-11T07:35:06.866Z] 
-[debug] [2021-03-11T07:35:06.872Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-03-11T07:35:06.872Z] > authorizing via signed-in user
+[debug] [2021-04-01T14:49:36.896Z] ----------------------------------------------------------------------
+[debug] [2021-04-01T14:49:36.899Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RAHUL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-04-01T14:49:36.900Z] CLI Version:   9.6.0
+[debug] [2021-04-01T14:49:36.900Z] Platform:      win32
+[debug] [2021-04-01T14:49:36.900Z] Node Version:  v14.7.0
+[debug] [2021-04-01T14:49:36.902Z] Time:          Thu Apr 01 2021 20:19:36 GMT+0530 (India Standard Time)
+[debug] [2021-04-01T14:49:36.902Z] ----------------------------------------------------------------------
+[debug] [2021-04-01T14:49:36.902Z] 
+[debug] [2021-04-01T14:49:36.912Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-01T14:49:36.913Z] > authorizing via signed-in user
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -31,11 +31,11 @@ Before we get started, keep in mind:
 [info] but for now we'll just set up a default project.
 [info] 
 [info] i  .firebaserc already has a default project, using dataroid-stationary. 
-[debug] [2021-03-11T07:35:27.369Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/dataroid-stationary [none]
-[debug] [2021-03-11T07:35:28.387Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/dataroid-stationary 403
-[debug] [2021-03-11T07:35:28.387Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/dataroid-stationary {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2021-03-11T07:35:28.389Z] HTTP Error: 403, The caller does not have permission
-[debug] [2021-03-11T07:35:28.554Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+[debug] [2021-04-01T14:49:46.757Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/dataroid-stationary [none]
+[debug] [2021-04-01T14:49:47.302Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/dataroid-stationary 403
+[debug] [2021-04-01T14:49:47.302Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/dataroid-stationary {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-04-01T14:49:47.303Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-04-01T14:49:47.453Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at module.exports (C:\Users\RAHUL\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
     at Client.doRequest (C:\Users\RAHUL\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
     at processTicksAndRejections (internal/process/task_queues.js:93:5)
@@ -45,50 +45,3 @@ Before we get started, keep in mind:
     at async init (C:\Users\RAHUL\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
 [error] 
 [error] Error: Failed to get Firebase project dataroid-stationary. Please make sure the project exists and your account has permission to access it.
-[debug] [2021-03-11T07:38:54.813Z] ----------------------------------------------------------------------
-[debug] [2021-03-11T07:38:54.816Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RAHUL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2021-03-11T07:38:54.817Z] CLI Version:   9.6.0
-[debug] [2021-03-11T07:38:54.817Z] Platform:      win32
-[debug] [2021-03-11T07:38:54.817Z] Node Version:  v14.7.0
-[debug] [2021-03-11T07:38:54.818Z] Time:          Thu Mar 11 2021 13:08:54 GMT+0530 (India Standard Time)
-[debug] [2021-03-11T07:38:54.819Z] ----------------------------------------------------------------------
-[debug] [2021-03-11T07:38:54.819Z] 
-[debug] [2021-03-11T07:38:54.826Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-03-11T07:38:54.826Z] > authorizing via signed-in user
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  C:\Users\RAHUL\OneDrive\rahulvishwakarma6189@gmail.com\Stationary Online Store\stationaryonlinesite
-
-Before we get started, keep in mind:
-
-  * You are initializing in an existing Firebase project directory
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] but for now we'll just set up a default project.
-[info] 
-[info] i  .firebaserc already has a default project, using dataroid. 
-[debug] [2021-03-11T07:39:08.308Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/dataroid [none]
-[debug] [2021-03-11T07:39:09.365Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/dataroid 403
-[debug] [2021-03-11T07:39:09.366Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/dataroid {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2021-03-11T07:39:09.367Z] HTTP Error: 403, The caller does not have permission
-[debug] [2021-03-11T07:39:09.540Z] FirebaseError: HTTP Error: 403, The caller does not have permission
-    at module.exports (C:\Users\RAHUL\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
-    at Client.doRequest (C:\Users\RAHUL\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
-    at processTicksAndRejections (internal/process/task_queues.js:93:5)
-    at async Client.request (C:\Users\RAHUL\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
-    at async Object.getFirebaseProject (C:\Users\RAHUL\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:289:21)
-    at async Object.doSetup [as project] (C:\Users\RAHUL\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
-    at async init (C:\Users\RAHUL\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
-[error] 
-[error] Error: Failed to get Firebase project dataroid. Please make sure the project exists and your account has permission to access it.

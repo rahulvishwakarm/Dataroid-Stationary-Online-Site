@@ -28,359 +28,161 @@ import tb24 from '../../img/Textbook/tb24.jpg';
 import TodaysBackgroungImage from '../../img/TodaysDealBackground.png';
 
 function Textbook() {
+
+    let textbook = [
+        { ISBN: '8176561061',
+      title: 'LET US C++ PB (Paperback)',
+      image: tb1,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ PBregergergreg (Paperback)',
+      image: tb2,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ PBrferg (Paperback)',
+      image: tb3,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ PBrergerg (Paperback)',
+      image: tb4,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ PBgreggrgrg (Paperback)',
+      image: tb5,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ PtrertretB (Paperback)',
+      image: tb6,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ PBgergreg (Paperback)',
+      image: tb7,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ retertretPB (Paperback)',
+      image: tb8,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ PB (Paperback)',
+      image: tb9,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++tertert PB (Paperback)',
+      image: tb10,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ tretePB (Paperback)',
+      image: tb11,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ tertertPB (Paperback)',
+      image: tb12,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ 6u67676767PB (Paperback)',
+      image: tb12,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ u67ugrtgPB (Paperback)',
+      image: tb13,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ PtyrytryB (Paperback)',
+      image: tb14,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ rtytryrtyPB (Paperback)',
+      image: tb15,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ yrtyrtyPB (Paperback)',
+      image: tb16,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++eyertyrtyrt PB (Paperback)',
+      image: tb17,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ PgvdfgrgdfgB (Paperback)',
+      image: tb18,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ dfgdsfgdfghPB (Paperback)',
+      image: tb19,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ dfgdfgdfgdfgPB (Paperback)',
+      image: tb20,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++dfgheryhery PB (Paperback)',
+      image: tb21,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++eryeryrtghdfb PB (Paperback)',
+      image: tb22,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++gddgdgghdrg PB (Paperback)',
+      image: tb23,
+      price: 150,
+      rating: 5 },
+      { ISBN: '8176561061',
+      title: 'LET US C++ rhregherherhPB (Paperback)',
+      image: tb24,
+      price: 150,
+      rating: 5 }
+    ]
+    console.log(textbook);
     return (
         <div className="product">
             <div className="textheading">
                 <h1 style={{backgroundImage: `url(${TodaysBackgroungImage})`}}>Textbooks</h1>
             </div>
-            <div className="product_arrange">
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb1}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb2}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb3}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb4}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb5}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb6}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-            </div>
-            <hr></hr>
-            <div className="product_arrange">
             
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb7}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb8}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb9}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb10}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb11}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb12}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-            </div>
-
-            <hr></hr>
-
-            <div className="product_arrange">
-            
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb13}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb14}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb15}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb16}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb17}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb18}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-                
-            </div>
-
-            <hr></hr>
-
-            <div className="product_arrange">
-            
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb19}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb20}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb21}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb22}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb23}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb24}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-                
-            </div>
-
-
-            <hr></hr>
-
-            <div >
-            
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb19}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb20}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={tb21}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                
+            <div className="noSearchBar">
+                            {textbook.map((testb,index) =>{
+                        return(
+                            <div key={index} className="beforefilterData" >
+                                <div className="afterfilterData">
+                                {
+                                    <ProductSource
+                                        image={testb.image}
+                                        ISBN={testb.ISBN}
+                                        title={testb.title}
+                                        price={testb.price}
+                                        rating={testb.rating}
+                                    />
+                                }
+                                </div>
+                            </div>
+                        ) 
+                    }
+                    
+                    )}
             </div>
 
 

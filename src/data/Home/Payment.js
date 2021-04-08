@@ -85,11 +85,9 @@ function Payment() {
         setError(event.error ? event.error.message : ""); //if else statement
     }
 
-    const saveChange = () =>{
+    const saveChange = (e) =>{
         alert("Address Saved Succesfully");
     }
-
-
 
     return (
         <div className="payment">

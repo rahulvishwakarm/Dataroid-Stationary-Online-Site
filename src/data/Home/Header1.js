@@ -28,7 +28,7 @@ function Header1() {
             </Link>
 
             {/*New Search*/}
-                <Searchbar/>
+                <Searchbar />
                 
                 <div className="header_nav">
                     <div className="header_option">

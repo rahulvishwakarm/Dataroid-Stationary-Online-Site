@@ -9,3 +9,18 @@
     background-position: center;
     margin-bottom: 20px;
 }
+
+.beforefilterData{
+    padding-top: 20px;
+    display:inline-flex;
+    height:80%;
+    
+  }
+
+  .noSearchBar{
+    padding-bottom: 10px;
+    align-items: inherit;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+  }

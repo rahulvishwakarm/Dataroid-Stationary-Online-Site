@@ -19,240 +19,114 @@ import craft15 from '../../img/Craft Material/craft15.jpg';
 import TodaysBackgroungImage from '../../img/TodaysDealBackground.png';
 
 function CraftMaterial() {
+
+    let craftman = [
+        { ISBN: '9789385824333',
+      title: 'You Only Live Once (Paperback)',
+      image: craft1,
+      price: 150,
+      rating: 5 },
+     { ISBN: '9788172234980',
+      title: 'The Alchemist (Paperback)',
+      image: craft2,
+      price: 175,
+      rating: 3 },
+     {ISBN: '9789382665540',
+      title: 'You are the Best Wife: A True Love Story',
+      image: craft3,
+      price: 102,
+      rating: 5 },
+     {ISBN: '9788179925911',
+      title: 'Theory of Everything (Paperback)',
+      image: craft4,
+      price: 149,
+      rating: 3 },
+     {ISBN: '9780062641540',
+      title: 'The Subtle Art of Not Giving a F*ck ',
+      image: craft5,
+      price: 290,
+      rating: 3 },
+     {ISBN: '9788171673407',
+      title: 'The Blue Umbrella (Paperback)',
+      image: craft6,
+      price: 70,
+      rating: 5 },
+      {ISBN: '9788184006711',
+       title: 'You\'re Trending in My Dreams (Paperback)',
+       image: craft7,
+       price: 175,
+       rating: 5 },
+       {ISBN: '9780062641540',
+        title: 'The Subtle Art of Not Giving a F*ck ',
+        image: craft8,
+        price: 290,
+        rating: 3 },
+       {ISBN: '9788171673407',
+        title: 'The Blue Umbrella (Paperback)',
+        image: craft9,
+        price: 70,
+        rating: 5 },
+        {ISBN: '9788184006711',
+         title: 'You\'re Trending in My Dreams (Paperback)',
+         image: craft10,
+         price: 175,
+         rating: 5 },
+         {ISBN: '9780062641540',
+          title: 'The Subtle Art of Not Giving a F*ck ',
+          image: craft11,
+          price: 290,
+          rating: 3 },
+         {ISBN: '9788171673407',
+          title: 'The Blue Umbrella (Paperback)',
+          image: craft12,
+          price: 70,
+          rating: 5 },
+          {ISBN: '9788184006711',
+           title: 'You\'re Trending in My Dreams (Paperback)',
+           image: craft13,
+           price: 175,
+           rating: 5 },
+           {ISBN: '9780062641540',
+            title: 'The Subtle Art of Not Giving a F*ck ',
+            image: craft14,
+            price: 290,
+            rating: 3 },
+           {ISBN: '9788171673407',
+            title: 'The Blue Umbrella (Paperback)',
+            image: craft15,
+            price: 70,
+            rating: 5 }
+    ]
+    console.log(craftman);
+
     return (
         <div className="product">
             <div className="craftheading">
                 <h1 style={{backgroundImage: `url(${TodaysBackgroungImage})`}}>Crafts</h1>
             </div>
-            <div className="product_arrange">
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft1}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft2}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft3}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft4}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft5}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft6}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-            </div>
-
-            <hr></hr>
-
-            <div className="product_arrange">
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft7}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft8}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft9}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft10}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft11}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft12}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-                
-            </div>
-
-            <hr></hr>
-
-            <div className="product_arrange">
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft13}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft14}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft15}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft4}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft5}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft6}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-                
-            </div>
             
+            <div className="noSearchBar">
+                            {craftman.map((craft,index) =>{
+                        return(
+                            <div key={index} className="beforefilterData" >
+                                <div className="afterfilterData">
+                                {
+                                    <ProductSource
+                                    image={craft.image}
+                                    ISBN={craft.ISBN}
+                                    title={craft.title}
+                                    price={craft.price}
+                                    rating={craft.rating}
+                                />
+                                }
+                                </div>
+                            </div>
+                        ) 
+                    }
+                    
+                    )}
+            </div>
+
         </div>
     )
 }

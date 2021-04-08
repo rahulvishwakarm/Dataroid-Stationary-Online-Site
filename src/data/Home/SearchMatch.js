@@ -17,187 +17,116 @@ import penpencil3 from '../../img/Pen Pencils/penpencil6.jpg';
 import trend1 from '../../img/Trending/trending1.jpg';
 import trend2 from '../../img/Trending/trending2.jpg';
 function SearchMatch() {
+
+    let searchmathces = [
+        { ISBN: '9789385824333',
+      title: 'You Only Live Once (Paperback)',
+      image: textbook1,
+      price: 150,
+      rating: 5 },
+     { ISBN: '9788172234980',
+      title: 'The Alchemist (Paperback)',
+      image: notebook2,
+      price: 175,
+      rating: 3 },
+     {ISBN: '9789382665540',
+      title: 'You are the Best Wife: A True Love Story',
+      image: trend2,
+      price: 102,
+      rating: 5 },
+     {ISBN: '9788179925911',
+      title: 'Theory of Everything (Paperback)',
+      image: penpencil2,
+      price: 149,
+      rating: 3 },
+     {ISBN: '9780062641540',
+      title: 'The Subtle Art of Not Giving a F*ck ',
+      image: textbook5,
+      price: 290,
+      rating: 3 },
+     {ISBN: '9788171673407',
+      title: 'The Blue Umbrella (Paperback)',
+      image: trend1,
+      price: 70,
+      rating: 5 },
+      {ISBN: '9788184006711',
+       title: 'You\'re Trending in My Dreams (Paperback)',
+       image: penpencil3,
+       price: 175,
+       rating: 5 },
+       {ISBN: '9780062641540',
+        title: 'The Subtle Art of Not Giving a F*ck ',
+        image: penpencil1,
+        price: 290,
+        rating: 3 },
+       {ISBN: '9788171673407',
+        title: 'The Blue Umbrella (Paperback)',
+        image: notebook3,
+        price: 70,
+        rating: 5 },
+        {ISBN: '9788184006711',
+         title: 'You\'re Trending in My Dreams (Paperback)',
+         image: notebook1,
+         price: 175,
+         rating: 5 },
+         {ISBN: '9780062641540',
+          title: 'The Subtle Art of Not Giving a F*ck ',
+          image: textbook4,
+          price: 290,
+          rating: 3 },
+         {ISBN: '9788171673407',
+          title: 'The Blue Umbrella (Paperback)',
+          image: craft2,
+          price: 70,
+          rating: 5 },
+          {ISBN: '9788184006711',
+           title: 'You\'re Trending in My Dreams (Paperback)',
+           image: textbook3,
+           price: 175,
+           rating: 5 },
+           {ISBN: '9788171673407',
+            title: 'The Blue Umbrella (Paperback)',
+            image: notebook2,
+            price: 70,
+            rating: 5 },
+            {ISBN: '9788184006711',
+             title: 'You\'re Trending in My Dreams (Paperback)',
+             image: textbook2,
+             price: 175,
+             rating: 5 },
+             {ISBN: '9788171673407',
+              title: 'The Blue Umbrella (Paperback)',
+              image: craft1,    
+              price: 70,
+              rating: 5 },
+    ]
+    console.log(searchmathces);
     return (
         <div>
             <div>
                 <h1 className="title-search">Your Search Matches Ids</h1><br></br>
             </div>
 
-            <div className="product_arrange">
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={craft1}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={notebook1}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={textbook1}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={notebook2}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={penpencil1}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={textbook2}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-            </div>
-
-            <hr></hr>
-
-            <div className="product_arrange">
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={textbook4}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={penpencil2}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={penpencil3}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={textbook3}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={trend1}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={trend2}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-            </div>
-
-            <hr></hr>
-            <div className="product_arrange">
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={notebook3}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={textbook5}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
+            <div className="noSearchBar">
+                            {searchmathces.map((searchmat,index) =>{
+                        return(
+                            <div key={index} className="beforefilterData" >
+                                <div className="afterfilterData">
+                                {
+                                    <ProductSource
+                                    image={searchmat.image}
+                                    ISBN={searchmat.ISBN}
+                                    title={searchmat.title}
+                                    price={searchmat.price}
+                                    rating={searchmat.rating}
+                                />
+                                }
+                                </div>
+                            </div>
+                        ) 
+                    }
+                    
+                    )}
             </div>
 
         </div>

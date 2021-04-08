@@ -2,13 +2,13 @@
 import firebase from 'firebase';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDp1wiSDkQvveN_MUIxZT5K3uHn382wk9c",
-  authDomain: "dataroid-4cec5.firebaseapp.com",
-  projectId: "dataroid-4cec5",
-  storageBucket: "dataroid-4cec5.appspot.com",
-  messagingSenderId: "161159105311",
-  appId: "1:161159105311:web:6d204a1037ab5a9239fe2a",
-  measurementId: "G-SEVFQJ21DH"
+  apiKey: "AIzaSyCJgf6F9UfhOmmrmjVFTbDBT8uCVFAH5Uk",
+  authDomain: "dataroidstationarysite-61be8.firebaseapp.com",
+  projectId: "dataroidstationarysite-61be8",
+  storageBucket: "dataroidstationarysite-61be8.appspot.com",
+  messagingSenderId: "274923514924",
+  appId: "1:274923514924:web:fb76da403c0fa93b69f589",
+  measurementId: "G-HKGCYY54MZ"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);

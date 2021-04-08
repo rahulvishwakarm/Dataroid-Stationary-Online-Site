@@ -23,227 +23,127 @@ import TodaysBackgroungImage from '../../img/TodaysDealBackground.png';
 
 
 function BottleTeffin() {
+
+    let bootleteffins = [
+        { ISBN: '9789385824333',
+        title: 'You Only Live Once (Paperback)',
+        image: bottleteffin1,
+        price: 150,
+        rating: 5 },
+       { ISBN: '9788172234980',
+        title: 'The Alchemist (Paperback)',
+        image: bottleteffin2,
+        price: 175,
+        rating: 3 },
+       {ISBN: '9789382665540',
+        title: 'You are the Best Wife: A True Love Story',
+        image: bottleteffin3,
+        price: 102,
+        rating: 5 },
+       {ISBN: '9788179925911',
+        title: 'Theory of Everything (Paperback)',
+        image: bottleteffin4,
+        price: 149,
+        rating: 3 },
+       {ISBN: '9780062641540',
+        title: 'The Subtle Art of Not Giving a F*ck ',
+        image: bottleteffin5,
+        price: 290,
+        rating: 3 },
+       {ISBN: '9788171673407',
+        title: 'The Blue Umbrella (Paperback)',
+        image: bottleteffin6,
+        price: 70,
+        rating: 5 },
+        {ISBN: '9788184006711',
+         title: 'You\'re Trending in My Dreams (Paperback)',
+         image: bottleteffin7,
+         price: 175,
+         rating: 5 },
+         {ISBN: '9789382665540',
+          title: 'You are the Best Wife: A True Love Story',
+          image: bottleteffin8,
+          price: 102,
+          rating: 5 },
+         {ISBN: '9788179925911',
+          title: 'Theory of Everything (Paperback)',
+          image: bottleteffin9,
+          price: 149,
+          rating: 3 },
+         {ISBN: '9780062641540',
+          title: 'The Subtle Art of Not Giving a F*ck ',
+          image: bottleteffin10,
+          price: 290,
+          rating: 3 },
+         {ISBN: '9788171673407',
+          title: 'The Blue Umbrella (Paperback)',
+          image: bottleteffin11,
+          price: 70,
+          rating: 5 },
+          {ISBN: '9788184006711',
+           title: 'You\'re Trending in My Dreams (Paperback)',
+           image: bottleteffin12,
+           price: 175,
+           rating: 5 },
+           {ISBN: '9780062641540',
+            title: 'The Subtle Art of Not Giving a F*ck ',
+            image: bottleteffin13,
+            price: 290,
+            rating: 3 },
+           {ISBN: '9788171673407',
+            title: 'The Blue Umbrella (Paperback)',
+            image: bottleteffin14,
+            price: 70,
+            rating: 5 },
+            {ISBN: '9788184006711',
+             title: 'You\'re Trending in My Dreams (Paperback)',
+             image: bottleteffin15,
+             price: 175,
+             rating: 5 },
+             {ISBN: '9788171673407',
+              title: 'The Blue Umbrella (Paperback)',
+              image: bottleteffin15,
+              price: 70,
+              rating: 5 },
+              {ISBN: '9788184006711',
+               title: 'You\'re Trending in My Dreams (Paperback)',
+               image: bottleteffin16,
+               price: 175,
+               rating: 5 },
+               {ISBN: '9788184006711',
+                title: 'You\'re Trending in My Dreams (Paperback)',
+                image: bottleteffin18,
+                price: 175,
+                rating: 5 }
+    ]
+
     return (
         <div className="product">
             <div className="bottleteffinheading">
                 <h1 style={{backgroundImage: `url(${TodaysBackgroungImage})`}}>Bottle Teffins </h1>
             </div>
-            <div className="product_arrange">
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bottleteffin1}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bottleteffin2}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bottleteffin3}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bottleteffin4}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bottleteffin5}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bottleteffin6}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
+            
+            <div className="noSearchBar">
+                            {bootleteffins.map((btltfn,index) =>{
+                        return(
+                            <div key={index} className="beforefilterData" >
+                                <div className="afterfilterData">
+                                {
+                                    <ProductSource
+                                    image={btltfn.image}
+                                    ISBN={btltfn.ISBN}
+                                    title={btltfn.title}
+                                    price={btltfn.price}
+                                    rating={btltfn.rating}
+                                />
+                                }
+                                </div>
+                            </div>
+                        ) 
+                    }
+                    
+                    )}
             </div>
-
-            <hr></hr>
-
-            <div className="product_arrange">
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bottleteffin7}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bottleteffin8}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bottleteffin9}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bottleteffin10}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bottleteffin11}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bottleteffin12}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-            </div>
-
-            <hr></hr>
-
-            <div className="product_arrange">
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bottleteffin13}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bottleteffin14}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bottleteffin15}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bottleteffin16}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bottleteffin18}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                
-            </div>
-
         </div>
     )
 }

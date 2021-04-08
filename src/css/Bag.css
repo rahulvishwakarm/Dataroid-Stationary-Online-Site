@@ -18,3 +18,17 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.beforefilterData{
+    display:inline-flex;
+    height:80%;
+    
+}
+
+.noSearchBar{
+    padding-top: 5px;
+    align-items: inherit;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}

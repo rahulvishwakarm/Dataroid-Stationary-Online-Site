@@ -14,7 +14,7 @@ function Footer() {
                                 Home                            
                             </Link>
                             |
-                            <a href="https://www.google.com/">Blog</a>
+                            <a href="https://www.blogger.com/">Blog</a>
                             |
                             <Link to="/aboutus">
                                 About Us    

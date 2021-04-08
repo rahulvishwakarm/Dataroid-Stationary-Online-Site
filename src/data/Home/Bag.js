@@ -20,202 +20,113 @@ import bag15 from '../../img/Bag/bag15.jpg';
 import TodaysBackgroungImage from '../../img/TodaysDealBackground.png';
 
 function Bag() {
+
+    let bags = [
+        { ISBN: '9789385824333',
+      title: 'You Only Live Once (Paperback)',
+      image: bag1,
+      price: 150,
+      rating: 5 },
+     { ISBN: '9788172234980',
+      title: 'The Alchemist (Paperback)',
+      image: bag2,
+      price: 175,
+      rating: 3 },
+     {ISBN: '9789382665540',
+      title: 'You are the Best Wife: A True Love Story',
+      image: bag3,
+      price: 102,
+      rating: 5 },
+     {ISBN: '9788179925911',
+      title: 'Theory of Everything (Paperback)',
+      image: bag4,
+      price: 149,
+      rating: 3 },
+     {ISBN: '9780062641540',
+      title: 'The Subtle Art of Not Giving a F*ck ',
+      image: bag5,
+      price: 290,
+      rating: 3 },
+     {ISBN: '9788171673407',
+      title: 'The Blue Umbrella (Paperback)',
+      image: bag6,
+      price: 70,
+      rating: 5 },
+      {ISBN: '9788184006711',
+       title: 'You\'re Trending in My Dreams (Paperback)',
+       image: bag7,
+       price: 175,
+       rating: 5 },
+       { ISBN: '9788172234980',
+        title: 'The Alchemist (Paperback)',
+        image: bag8,
+        price: 175,
+        rating: 3 },
+       {ISBN: '9789382665540',
+        title: 'You are the Best Wife: A True Love Story',
+        image: bag9,
+        price: 102,
+        rating: 5 },
+       {ISBN: '9788179925911',
+        title: 'Theory of Everything (Paperback)',
+        image: bag10,
+        price: 149,
+        rating: 3 },
+       {ISBN: '9780062641540',
+        title: 'The Subtle Art of Not Giving a F*ck ',
+        image: bag11,
+        price: 290,
+        rating: 3 },
+       {ISBN: '9788171673407',
+        title: 'The Blue Umbrella (Paperback)',
+        image: bag12,
+        price: 70,
+        rating: 5 },
+        {ISBN: '9788184006711',
+         title: 'You\'re Trending in My Dreams (Paperback)',
+         image: bag13,
+         price: 175,
+         rating: 5 },
+         {ISBN: '9788171673407',
+          title: 'The Blue Umbrella (Paperback)',
+          image: bag14,
+          price: 70,
+          rating: 5 },
+          {ISBN: '9788184006711',
+           title: 'You\'re Trending in My Dreams (Paperback)',
+           image: bag15,
+           price: 175,
+           rating: 5 }
+    ]
+    console.log(bags);
     return (
         <div className="product">
             <div className="bagheading">
                 <h1 style={{backgroundImage: `url(${TodaysBackgroungImage})`}}>Bags</h1>
             </div>
-            <div className="product_arrange">
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bag1}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bag2}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bag3}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bag4}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bag5}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bag6}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
+            
+            <div className="noSearchBar">
+                            {bags.map((bg,index) =>{
+                        return(
+                            <div key={index} className="beforefilterData" >
+                                <div className="afterfilterData">
+                                {
+                                    <ProductSource
+                                    image={bg.image}
+                                    ISBN={bg.ISBN}
+                                    title={bg.title}
+                                    price={bg.price}
+                                    rating={bg.rating}
+                                />
+                                }
+                                </div>
+                            </div>
+                        ) 
+                    }
+                    
+                    )}
             </div>
-
-            <hr></hr>
-
-            <div className="product_arrange">
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bag7}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bag8}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bag9}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bag10}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bag11}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bag12}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-            </div>
-
-            <hr></hr>
-
-            <div className="">
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bag13}
-                        ISBN="8176561061"
-                        title="Text Book1 as the Start"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bag14}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-
-                <div className="product-row">
-                    <div className="products">
-                        <ProductSource
-                        image={bag15}
-                        ISBN="8176561061"
-                        title="LET US C++ PB (Paperback)"
-                        price={431}
-                        rating={5}
-                        />
-                    </div>         
-                </div>
-            </div>
+            
             
         </div>
     )
