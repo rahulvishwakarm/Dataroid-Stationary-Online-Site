@@ -3,6 +3,7 @@
 footer{
 	position: fixed;
 	bottom: 0;
+	background-color: #333333;
 }
 
 @media (max-height:900px){
